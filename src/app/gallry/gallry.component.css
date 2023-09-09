@@ -1,0 +1,26 @@
+.foop{
+    height: 100vh;
+    margin-top: 6rem;
+}
+.liuue{
+    width: 90px;
+    height: 4px;
+}
+.imagefoo{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.inomj{
+    position: absolute;
+    background-color: aqua;
+    width: 84%;
+    height: 100%;
+    top: 0;
+    left: 0.9px;
+    transition: 0.5s;
+    opacity: 0;
+}
+.imagefoo:hover .inomj{
+    opacity: 0.5;
+}
